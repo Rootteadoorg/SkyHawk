@@ -4,17 +4,16 @@
 
 
 # Instalar Primero el Pyfiglet
-
-'''bash 
+ ```bash
 sudo apt install python3-pyfiglet
-'''
+```
 
 # Instalación : Linux
 
-'''bash
+```bash
 1. Clonar el repositorio
 2. cd SkyHawk.PY (Ir al repositorio)
 3. ls (Visualizar que el skyhawk.py esté dentro)
 4. chmod +x skyhawk.py (Dar permisos al code)
 5. Usar y disfrutar la herramienta !!
-   
+```
