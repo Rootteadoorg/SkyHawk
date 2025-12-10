@@ -2,6 +2,7 @@
 
 <p align="center"><img width="200px" alt="Version" src="https://img.shields.io/badge/Skyhwak-white.svg?style=for-the-badge"/></p>
 
+# Funcionamiento : 
 
 # Instalar Primero el Pyfiglet
  ```bash
