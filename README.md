@@ -4,11 +4,6 @@
 
 # Funcionamiento : ![funcionamiento](https://github.com/Rootteadoorg/SkyHawk.PY/blob/main/skyhawk.png?raw=true)
 
-# Instalar Primero el Pyfiglet
- ```bash
-sudo apt install python3-pyfiglet
-```
-
 # Instalación : Linux
 
 ```bash
