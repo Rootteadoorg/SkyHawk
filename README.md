@@ -2,7 +2,7 @@
 
 <p align="center"><img width="200px" alt="Version" src="https://img.shields.io/badge/Skyhawk-white.svg?style=for-the-badge"/></p>
 
-# Funcionamiento : ![Funcionamiento](https://github.com/Rootteadoorg/SkyHawk/blob/main/skyhawk1.png)
+# Funcionamiento : ![Funcionamiento](https://github.com/Rootteadoorg/SkyHawk/blob/main/skyhawk.png)
 
 # Instalación : Linux
 
