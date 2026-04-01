@@ -4,6 +4,8 @@
 
 # Funcionamiento : ![Funcionamiento](https://github.com/Rootteadoorg/SkyHawk/blob/main/skyhawk.png)
 
+# Version v1.1 : Una nueva interfaz a la hora de que la herramienta escaneas el Protocolo de Internet del Dominio: 
+
 # Instalación : Linux
 
 ```bash
