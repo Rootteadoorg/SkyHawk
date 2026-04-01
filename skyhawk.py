@@ -27,6 +27,17 @@ def efecto(texto, ciclos=12, delay=0.5):
         time.sleep(delay)
     print()
 
+def barra_progreso(texto, total=100, delay=0.06):
+    print(Fore.WHITE + texto)
+    for i in range(1, total + 1):
+        filled = "#" * i
+        spaces = " " * (total - i)
+        sys.stdout.write(
+            "\r" + Fore.WHITE + f"[{i}% " + Fore.WHITE + filled + spaces + Fore.WHITE + f"  {total}%]"
+        )
+        sys.stdout.flush()
+        time.sleep(delay)
+    print()
 
 def hawk_banner():
     clear()
@@ -45,6 +56,7 @@ def hawk_banner():
     print(Fore.GREEN + "  | Tool: Una herramienta de Pentesting diseñada en Python para escanear Protocolos de Internet (IPs) a URLs mediante su Dominio.")
     print(Fore.GREEN + "  | by: Rootr - MortenTod")
     print(Fore.GREEN + "  | Uso educativo.\n")
+
 if __name__ == "__main__":
     hawk_banner()
     
@@ -54,7 +66,7 @@ if __name__ == "__main__":
     try:
         my_url = input(Fore.WHITE + "SkyHawk > Escriba su dominio aquí: " + Style.RESET_ALL)
         print("   ")
-        efecto("[+] Encontrando dominio")
+        barra_progreso("[+] Encontrando dominio\n")
         slow_print("\n[+] Dominio encontrado.", 0.03)
 
         my_ip = socket.gethostbyname(my_url)
