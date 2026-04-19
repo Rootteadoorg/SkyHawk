@@ -1,4 +1,4 @@
-# SkyHawk : Puede escanear el Protocolo de Internet de cualquier dominio he imprimirlo en la shell.
+# SkyHawk : Puede extraer el Protocolo de Internet de cualquier dominio he imprimirlo en la shell.
 
 <p align="center"><img width="200px" alt="Version" src="https://img.shields.io/badge/Skyhawk-white.svg?style=for-the-badge"/></p>
 
